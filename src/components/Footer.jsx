@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div></div>
+    <>
+        <h5>@2024 - Todos os direitos reservados.</h5>
+    </>
   )
 }
 

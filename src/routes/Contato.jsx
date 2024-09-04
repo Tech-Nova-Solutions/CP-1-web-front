@@ -4,7 +4,7 @@ const Contato = () => {
   return (
     <>
 
-    <div className='informacoes_container'>
+    <div className='container_informacoes'>
       <h2>Informações da loja</h2>
       <div className='informacoes'>
         <p>Numero: </p>
@@ -15,7 +15,7 @@ const Contato = () => {
       </div>
     </div>
 
-    <div className = "contato_container">
+    <div className = "container_contato">
       <h2>Entre em Contato Conosco</h2>
       <form action = "#" method = "post">
         <div className = "contato">

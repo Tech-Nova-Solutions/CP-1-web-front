@@ -1,14 +1,23 @@
 import styled from 'styled-components';
 
 export const ProdutosStyle = styled.div`
+    background-color: bisque;
+    padding-bottom: 30px;
   h1 {
-    margin-top: 30px;
+    font-size: 35px;
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 900px;
+    height: 50px;
+    max-width: 100%;
+    margin: 30px auto 40px auto;
     text-align: center;
-    margin-bottom: 40px;
-    color: black;
+    color: bisque;
+    line-height: 50px;
   }
 
   h2 {
+    font-size: 30px;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -16,6 +25,7 @@ export const ProdutosStyle = styled.div`
   }
 
   .container_produtos {
+    background-color:bisque;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,8 +43,8 @@ export const ProdutosStyle = styled.div`
 
   .produtos img {
     width: 100%;
-    height: 250px; /* Definido tamanho fixo */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    height: 250px; 
+    object-fit: cover; 
     border-radius: 10px;
   }
 
@@ -52,7 +62,6 @@ export const ProdutosStyle = styled.div`
     color: bisque;
   }
 
-  /* Estilização do botão "Comprar" */
   button {
     background-color: bisque;
     color: var(--verde);
@@ -66,5 +75,9 @@ export const ProdutosStyle = styled.div`
 
   button:hover {
     background-color: white;
+  }
+
+  .banner_campo{
+    width: 1903px;
   }
 `;

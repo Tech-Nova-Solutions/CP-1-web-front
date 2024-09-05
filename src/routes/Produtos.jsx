@@ -4,9 +4,9 @@ import { ProdutosStyle } from '../css/ProdutosStyle';
 const Produtos = () => {
   return (
     <ProdutosStyle>
+      <img className='banner_campo' src="/src/assets/banner_campo.jpg" alt="banner_campo" />
       <h1>Conheça nossa Coleção de Produtos Esportivos!</h1>
-
-      {/* Seção de Bolas */}
+    
       <h2>Bolas</h2>
       <div className='container_produtos'>
         <div className='produtos'>
@@ -37,7 +37,6 @@ const Produtos = () => {
         </div>
       </div>
 
-      {/* Seção de Bicicletas */}
       <h2>Bicicletas</h2>
       <div className='container_produtos'>
         <div className='produtos'>
@@ -67,6 +66,7 @@ const Produtos = () => {
           </div>
         </div>
       </div>
+    
     </ProdutosStyle>
   );
 }

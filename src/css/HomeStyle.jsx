@@ -84,7 +84,11 @@ export const  HomeStyle = styled.section `
         
     }
 
-   
+   @media(min-width:1700px){
+    .boas-vindas{
+        width:70%;
+    }
+   }
 
 
 `

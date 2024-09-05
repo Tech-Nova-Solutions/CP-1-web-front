@@ -6,7 +6,7 @@ export const NavStyle = styled.header `
     .nav{
         width: 100%;
         height: 70px;  
-        background:var(--verde);
+        background:var(--azul);
     }
     .nav .container{
         display:flex;
@@ -29,12 +29,12 @@ export const NavStyle = styled.header `
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 500;
         text-transform: uppercase;
-        color: bisque;
+        color: var(--rosa);
     }
     .nav-link:hover{
         font-size: 1.3rem;
         transition: 0.3s ;
-        color: #8e7544;
+        color: var(--rosa-claro);
 
     }
 

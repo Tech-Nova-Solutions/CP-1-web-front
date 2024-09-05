@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FooterStyle } from '../css/FooterStyle'; // Importando o FooterStyle
+import { FooterStyle } from '../css/FooterStyle'; 
 
 const Footer = () => {
   return (

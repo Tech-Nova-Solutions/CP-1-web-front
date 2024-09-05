@@ -5,6 +5,7 @@ export const FooterStyle = styled.footer`
   padding: 40px 0;
   color: bisque;
   text-align: center;
+  margin-top: 100px;
 
   .footer-section {
     display: flex;

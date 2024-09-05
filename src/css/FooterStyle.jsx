@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const FooterStyle = styled.footer`
-  background-color: var(--verde); 
+  background-color: var(--azul); 
   padding: 40px 0;
-  color: bisque;
+  color: var(--rosa-escuro);
   text-align: center;
 
   .footer-section {
@@ -20,7 +20,7 @@ export const FooterStyle = styled.footer`
   }
 
   .footer-link {
-    color: bisque;
+    color: var(--rosa);
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -28,7 +28,7 @@ export const FooterStyle = styled.footer`
   }
 
   .footer-link:hover {
-    color: #8e7544; 
+    color: var(--rosa-claro); 
   }
 
   .footer-copyright {

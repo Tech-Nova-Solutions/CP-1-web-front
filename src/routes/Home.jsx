@@ -13,11 +13,13 @@ const Home = () => {
       <section className='container'>
           {/*um banner com boas vindas*/}
           <div className='boas-vindas'>
-            <p>nome da loja </p>
+            <p>TN Sports </p>
+            <p className="slogan">Faça acontecer</p>
             
           </div>
           <div className='esportes'>
               <p>Lugar certo para os amantes de esporte!</p>
+              <a href="/sobre" className="btn">Saiba Mais</a>
               
               
           </div>

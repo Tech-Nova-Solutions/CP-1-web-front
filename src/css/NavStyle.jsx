@@ -7,10 +7,19 @@ export const NavStyle = styled.header `
         width: 100%;
         height: 70px;  
         background:var(--azul);
+        color: var(--azul-claro);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        text-shadow: 0 0 10px var(--rosa-escuro),
+                     0 0 20px var(--rosa-escuro),
+                     0 0 10px var(--rosa-escuro);
+        
+    
     }
     .nav .container{
         display:flex;
-        padding:20px 80px;
+        padding:15px 80px;
         justify-content: space-between;
         align-items: center;
         
@@ -20,6 +29,7 @@ export const NavStyle = styled.header `
         width: 50%;
         display: flex;
         justify-content: space-around;
+        
        
         
     }

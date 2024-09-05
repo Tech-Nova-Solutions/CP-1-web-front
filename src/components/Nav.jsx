@@ -6,7 +6,7 @@ const Nav = () => {
     <NavStyle>
       <header className='nav'>
           <div className='container'>
-              <h1>nome da loja</h1> 
+              <p>TN Sports</p> 
               <ul>
                   <Link to='/' className="nav-link">Home</Link>
                   <Link to='/produtos' className="nav-link">Produtos</Link>

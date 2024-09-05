@@ -21,25 +21,37 @@ export const  HomeStyle = styled.section `
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end ;
+
+        align-items: center ;
     }
     .boas-vindas p{
-        padding: 40px 180px;
-        font-size: 3rem;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 40px 120px;
+        font-size: 2rem;
+        font-family: monospace;
         text-transform: uppercase;
         font-weight: 500;
+        text-shadow: 0 0 10px var(--azul-claro),
+                    0 0 20px var(--azul-claro),
+                    0 0 10px var(--azul-claro);
         
 
+        
+    }
+    .boas-vindas .slogan{
+        padding-right: 70px;
+        text-shadow: 0 0 10px var(--azul-claro),
+                    0 0 20px var(--azul-claro),
+                    0 0 10px var(--azul-claro);
 
     }
     .esportes{
-        width: 100%;
+        width: 90%;
         min-height: 40vh;
         display: flex;
         flex-direction: column;
         margin-top:30px;
         margin-bottom:10px;
+        border-radius: 50px;
         justify-content: center;
         align-items: center;
         gap:70px;
@@ -47,9 +59,29 @@ export const  HomeStyle = styled.section `
 
     }
     .esportes p{
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.2rem;
+        font-family: sans-serif;
+        text-shadow: 0 0 10px var(--azul-claro),
+        0 0 10px var(--azul-claro);
        
+    }
+    .esportes .btn{
+        width: 20%;
+        height: 50px;
+        background:var(--azul);
+        color: var(--rosa);
+        border:none;
+        border-radius: 20px;
+        font-family: monospace;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .esportes .btn:hover{
+        background: #0d2f73;
+        
     }
 
    

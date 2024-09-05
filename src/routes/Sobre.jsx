@@ -1,5 +1,7 @@
 import React from 'react'
 import { SobreStyle } from '../css/SobreStyle'
+import jogador from '../assets/jogadorfut.jpg'
+import jogadora from '../assets/tenisplayer.jpg'
 
 const Sobre = () => {
   return (
@@ -7,8 +9,8 @@ const Sobre = () => {
     <div className='container_sobre'>
       <h1>Sobre</h1>
       <div className='sobre'>
-        <img src='' alt='Imagem de esporte' className='img'/>
-        <img src='' alt='imagem' className='img2'/>
+        <img src={jogadora} alt='Imagem de esporte' className='img'/>
+        <img src={jogador} alt='imagem' className='img2'/>
         <p className='text-1'>Bem-vindo à TN Sports, sua loja de esportes de confiança. Desde a nossa fundação em 2010, temos nos dedicado a fornecer produtos de alta qualidade para atletas e entusiastas do esporte. Localizados no coração da cidade, nossa missão é oferecer uma ampla gama de equipamentos e acessórios esportivos que atendem às suas necessidades e superam suas expectativas. </p>
         <p className='text-2'>Na TN Sports, entendemos a importância de ter o equipamento certo para alcançar seus objetivos. Por isso, trabalhamos com as principais marcas do mercado e garantimos que nossos produtos sejam cuidadosamente selecionados para garantir durabilidade e desempenho excepcionais. Seja você um corredor apaixonado, um jogador de futebol dedicado ou um praticante de esportes ao ar livre, temos o que você precisa. </p>
         <p className='text-3'>Nosso compromisso vai além da venda de produtos. Oferecemos atendimento ao cliente personalizado, com uma equipe experiente e apaixonada por esportes, pronta para ajudar você a encontrar o equipamento ideal. Além disso, realizamos eventos e workshops para promover a prática esportiva e educar nossos clientes sobre as melhores técnicas e práticas.</p>

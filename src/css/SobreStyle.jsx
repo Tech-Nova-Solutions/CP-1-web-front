@@ -23,19 +23,23 @@ export const SobreStyle = styled.div `
 
 }
 .sobre{
+    width:65%;
+    padding:10px;
+    display:flex;
+    justify-content: center;
     display: grid;
     grid-template-areas:
-    "text-1 text-1 img img"
-    "text-2 text-2 img img"
-    ".   .    .    ."
-    ".   .    .    ."
-    "img2 img2 text-3 text-3"
-    "img2 img2 text-4 text-4"
-    ".   .     text-5 text-5";
-    grid-template-columns: 4 1fr;
+    "text-1  img img"
+    "text-2  img img"
+    ".   .    .  "
+    ".   .     . "
+    " img2  text-3 text-3"
+    " img2  text-4 text-4"
+    " img2  text-5 text-5";
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: 4;
     grid-row-gap: 30px;
-    grid-column-gap: 60px;
+    grid-column-gap: 40px;
 }
 .sobre p{
     text-align:justify;
@@ -62,9 +66,17 @@ export const SobreStyle = styled.div `
 }
 .img{
     grid-area:img;
+    width: 350px;
+    height: 520px;
+    border-radius:40px;
+    
+    
 }
 .img2{
     grid-area:img2;
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
 }
 
 `

@@ -8,20 +8,18 @@ export const  HomeStyle = styled.section `
         display:flex;
         flex-direction: column;
         align-items: center;
-        justify-content:space-between;
+        
        
     }
     .boas-vindas{
-        width: 95%;
-        height: 50vh;
+        width: 100%;
+        height: 40vh;
         background-image: url(src/assets/banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position:center top;
-        margin-top: 40px;
         display: flex;
         justify-content: space-between;
-
         align-items: center ;
     }
     .boas-vindas p{
@@ -55,7 +53,8 @@ export const  HomeStyle = styled.section `
         justify-content: center;
         align-items: center;
         gap:70px;
-        background-image: radial-gradient(circle, var(--azul-2), var(--rosa));
+        background: radial-gradient(circle, var(--azul-2), var(--rosa), transparent 70%);
+        animation: expandGradient  2s ease-in-out infinite alternate;
 
     }
     .esportes p{
@@ -81,13 +80,32 @@ export const  HomeStyle = styled.section `
     }
     .esportes .btn:hover{
         background: #0d2f73;
+        box-shadow: 0 0 15px var(--rosa-escuro);
         
     }
 
-   @media(min-width:1700px){
+   @media(min-width:1300px){
     .boas-vindas{
-        width:70%;
+        background-position: center 15%;
     }
+    
+   }
+   @keyframes expandGradient{
+        0%{
+            background-size: 200% 200%;
+            background-position:center;
+            
+        }
+        50% {
+                background-size: 300% 300%;
+                background-position:center;
+                
+            }
+        100% {
+            background-size: 400% 400%;
+            background-position:center;
+            
+        }
    }
 
 

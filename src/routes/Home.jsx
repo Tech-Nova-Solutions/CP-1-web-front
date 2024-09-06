@@ -1,9 +1,4 @@
 import React from 'react'
-import futebol from '../assets/futebol.jpg'
-import volei from '../assets/volei.webp'
-import academia from '../assets/academia.jpg'
-import corrida from '../assets/corrida.jpg'
-import tenis from '../assets/tenis.jpg'
 import {HomeStyle} from '../css/HomeStyle'
 
 const Home = () => {

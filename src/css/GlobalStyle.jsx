@@ -22,20 +22,9 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    display:grid;
-    grid-template-areas:
-        "nav nav nav nav"
-        "home home home home"
-        "footer footer footer footer";
-    
-    grid-template-columns: repeat 5, 1fr;
-    grid-template-rows: repeat(5);
+body{    
     font-size:1rem;
     background-color: #d5f2f2;
-
-    
-
 
 }
 

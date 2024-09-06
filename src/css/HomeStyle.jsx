@@ -88,6 +88,12 @@ export const  HomeStyle = styled.section `
     .boas-vindas{
         background-position: center 15%;
     }
+    .boas-vindas p{
+        padding: 20px 300px;
+    }
+    .boas-vindas .slogan{
+        padding-right:300px;
+    }
     
    }
    @keyframes expandGradient{

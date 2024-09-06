@@ -1,83 +1,121 @@
 import styled from 'styled-components';
 
-export const ProdutosStyle = styled.div`
-    background-color: bisque;
-    padding-bottom: 30px;
-  h1 {
-    font-size: 35px;
-    background-color: var(--verde);
-    border-radius: 10px;
-    width: 900px;
-    height: 50px;
-    max-width: 100%;
-    margin: 30px auto 40px auto;
-    text-align: center;
-    color: bisque;
-    line-height: 50px;
-  }
+export const ProdutosStyle = styled.section`
 
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: black;
-  }
-
-  .container_produtos {
-    background-color:bisque;
+  .container{
+    width:100%;
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 100px;
+    flex-direction: column;
+    align-items:center;
+    
+  
   }
-
-  .produtos {
-    background-color: var(--verde);
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 300px;
+  .container h1{
+    padding:20px;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:var(--rosa);
+    text-shadow: 0 0 10px var(--azul-claro),
+                 0 0 10px var(--azul-claro);
   }
-
-  .produtos img {
-    width: 100%;
-    height: 250px; 
-    object-fit: cover; 
-    border-radius: 10px;
+  .container h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding:20px;
+    color: var(--rosa-escuro);
+    font-size:1.9rem;
+    text-shadow: 0 0 15px var(--azul-claro),
+    0 0 15px var(--azul-claro),
+    0 0 15px var(--azul-claro);
+    
+    
   }
-
-  .produto1, .produto2, .produto3, .produto4, .produto5, .produto6 {
-    margin-top: 15px;
-  }
-
-  .produto1 h3, .produto2 h3, .produto3 h3, .produto4 h3, .produto5 h3, .produto6 h3 {
-    font-size: 18px;
-    color: bisque;
-  }
-
-  .produto1 p, .produto2 p, .produto3 p, .produto4 p, .produto5 p, .produto6 p {
-    font-size: 16px;
-    color: bisque;
-  }
-
-  button {
-    background-color: bisque;
-    color: var(--verde);
-    padding: 10px 50px;
-    border: none;
-    border-radius: 30px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  button:hover {
-    background-color: white;
-  }
-
+  
   .banner_campo{
-    width: 1903px;
+    width: 100%;
+    
   }
+  .container_produtos{
+    width:100%;
+    min-height:40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+
+  }
+  .produtos{
+    width:320px;
+    min-height:350px;
+    background: var(--rosa-escuro);
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:20px;
+    
+  }
+  .produtos:hover{
+    box-shadow:0 0 15px var(--azul-claro),
+    0 0 15px var(--azul-claro),
+    0 0 15px var(--azul-claro),
+    0 0 15px var(--azul-claro);
+    transition:0.2s;
+  }
+  .produtos img{
+    width:250px;
+    border-radius:20px;
+    
+  }
+  .bola1{
+    height:250px;
+  }
+  .produtos_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  
+  }
+  .produtos_texto h3{
+    font-weight: 500;
+    color:var(--azul);
+    font-size: 1.3rem;
+  }
+
+  .produtos_texto p{
+    font-size: 1.2rem;
+    color:var(--azul-claro);
+    text-shadow: 0 0 10px var(--rosa-claro);
+  }
+  .btn-comprar{
+    width:90px;
+    height:30px;
+    border-radius: 20px;
+    border:none;
+    background: var(--azul-claro);
+    color: var(--azul);
+    text-transform:uppercase;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+.btn-comprar:hover{
+  box-shadow: 0 0 15px var(--rosa-claro),
+  0 0 15px var(--rosa-claro),
+  0 0 15px var(--rosa-claro);
+  cursor: pointer;
+  color:var(--rosa-escuro);
+}
+    
+    
+ 
+
+  
 `;

@@ -51,6 +51,7 @@ export const ContatoStyle = styled.section`
 .info p{
     font-size: 1.2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
     
 }
 .info img{
@@ -82,6 +83,8 @@ export const ContatoStyle = styled.section`
 .contato{
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
     gap:40px;
     justify-content: space-between;
     align-items: baseline;

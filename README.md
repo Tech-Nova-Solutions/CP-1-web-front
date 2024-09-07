@@ -1,8 +1,7 @@
-# React + Vite
+# Projeto com React + Vite
+Site de loja de esportes usando React + Vite, HTML, CSS e Javascript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Autores
+- Giulia Barbizan RM: 558084
+- Gustavo Viega RM: 555885
+- Felipe Marques RM:556319

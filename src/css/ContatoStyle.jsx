@@ -69,7 +69,7 @@ export const ContatoStyle = styled.section`
     align-self: center;
     border-radius: 30px 0 0 30px;
     //box-shadow: ;
-    gap:100px;
+    gap:50px;
    
 }
 .container_contato h2{
@@ -96,7 +96,7 @@ export const ContatoStyle = styled.section`
 }
 .contato input{
     height: 30px;
-    width:300px;
+    width:70%;
     border-radius: 30px;
     text-align:center;
     border:none;
@@ -114,8 +114,11 @@ export const ContatoStyle = styled.section`
     outline-color: var(--rosa-escuro);
 }
 form {
+    width: 70%;
+    min-height: fit-content;
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .btn_enviar{
     width:250px;
